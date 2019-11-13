@@ -1,0 +1,81 @@
+@import url('normalize.css');
+
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-item-1{
+    flex: 1;
+}
+
+.flex-item-2{
+    flex: 2;
+}
+
+.flex-item-3{
+    flex: 3;
+}
+
+.topo{
+    width: 80%;
+    height: 100px;
+    background-color: rgb(226, 118, 118);
+    margin: 0 auto;  
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.corpo{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.esquerda{
+    flex-direction: column;
+}
+
+.cima{
+    background-color: rgb(102, 102, 102);
+}
+
+.baixo{
+    background-color: rgb(134, 87, 15)
+}
+
+.direita{
+    background-color: blanchedalmond;
+}
+
+.info{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.info-esquerda{
+    background-color: bisque;
+}
+
+.info-direita{
+    background-color: aquamarine;
+}
+
+.rodape{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(71, 71, 243);
+}
+
+.rodape-texto{
+    margin: 0;
+    text-align: center;
+}
+
+
